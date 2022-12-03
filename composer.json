@@ -13,5 +13,7 @@
             "email": "wanlong757402@outlook.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.0"
+    }
 }
