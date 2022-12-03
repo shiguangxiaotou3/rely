@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "ShiGuangXiaoTou3\\Rely": "src/"
+            "ShiGuangXiaoTou3\\Rely\\": "src/"
         }
     },
     "authors": [
