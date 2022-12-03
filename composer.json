@@ -1,0 +1,17 @@
+{
+    "name": "shiguangxiaotou3/rely",
+    "description": "composer依赖可视化",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ShiGuangXiaoTou3\\Rely": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shiguangxiaotou3",
+            "email": "wanlong757402@outlook.com"
+        }
+    ],
+    "require": {}
+}
