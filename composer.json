@@ -2,6 +2,7 @@
     "name": "shiguangxiaotou3/rely",
     "description": "composer依赖可视化",
     "type": "library",
+    "version":"1.0",
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
