@@ -10,7 +10,7 @@
 ![composer依赖可视化](https://www.shiguangxiaotou.com/wp-content/uploads/2022/12/截屏2022-12-03-23.04.03.png)
 
 ~~~shell
-composer require shiguangxiaotou3/rely
+composer require shiguangxiaotou3/rely:dev-master -vvv
 ~~~
 ~~~php
 // 使用
