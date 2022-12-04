@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>Document</title>
+    <title>Document</title>
 </head>
 <body>
-    <div id="container" style="height: 600px"></div>
+<div id="container" style="height: 600px"></div>
 </body>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="echarts.min.js"></script>
 <script>
     var dom = document.getElementById('container');
     var myChart = echarts.init(dom, null, {
-        renderer: 'canvas',useDirtyRect: false
+        renderer: 'canvas', useDirtyRect: false
     });
     var graph = {
         "nodes": [{
@@ -209,56 +210,56 @@
         }, {"source": 57, "target": 0}],
         "categories": [{"name": "shiguangxiaotou\/wordpress"}, {"name": "yiisoft\/yii2"}, {"name": "yiisoft\/yii2"}, {"name": "php"}, {"name": "yiisoft\/yii2-composer"}, {"name": "yiisoft\/yii2-composer"}, {"name": "ezyang\/htmlpurifier"}, {"name": "ezyang\/htmlpurifier"}, {"name": "cebe\/markdown"}, {"name": "cebe\/markdown"}, {"name": "paragonie\/random_compat"}, {"name": "paragonie\/random_compat"}, {"name": "erusev\/parsedown"}, {"name": "erusev\/parsedown"}, {"name": "alibabacloud\/alidns-20150109"}, {"name": "alibabacloud\/alidns-20150109"}, {"name": "alibabacloud\/tea-utils"}, {"name": "alibabacloud\/tea-utils"}, {"name": "alibabacloud\/tea"}, {"name": "alibabacloud\/tea"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "alibabacloud\/darabonba-openapi"}, {"name": "alibabacloud\/darabonba-openapi"}, {"name": "alibabacloud\/tea-utils"}, {"name": "alibabacloud\/tea-utils"}, {"name": "alibabacloud\/tea"}, {"name": "alibabacloud\/tea"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "alibabacloud\/credentials"}, {"name": "alibabacloud\/credentials"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "alibabacloud\/tea"}, {"name": "alibabacloud\/tea"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "alibabacloud\/openapi-util"}, {"name": "alibabacloud\/openapi-util"}, {"name": "alibabacloud\/tea"}, {"name": "alibabacloud\/tea"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "alibabacloud\/tea-utils"}, {"name": "alibabacloud\/tea-utils"}, {"name": "alibabacloud\/tea"}, {"name": "alibabacloud\/tea"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "lizhichao\/one-sm"}, {"name": "lizhichao\/one-sm"}, {"name": "alibabacloud\/gateway-spi"}, {"name": "alibabacloud\/gateway-spi"}, {"name": "alibabacloud\/credentials"}, {"name": "alibabacloud\/credentials"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "alibabacloud\/tea"}, {"name": "alibabacloud\/tea"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "alibabacloud\/tea-xml"}, {"name": "alibabacloud\/tea-xml"}, {"name": "alibabacloud\/openapi-util"}, {"name": "alibabacloud\/openapi-util"}, {"name": "alibabacloud\/tea"}, {"name": "alibabacloud\/tea"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "alibabacloud\/tea-utils"}, {"name": "alibabacloud\/tea-utils"}, {"name": "alibabacloud\/tea"}, {"name": "alibabacloud\/tea"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "adbario\/php-dot-notation"}, {"name": "adbario\/php-dot-notation"}, {"name": "lizhichao\/one-sm"}, {"name": "lizhichao\/one-sm"}, {"name": "alibabacloud\/endpoint-util"}, {"name": "alibabacloud\/endpoint-util"}, {"name": "google\/cloud-translate"}, {"name": "google\/cloud-translate"}, {"name": "google\/cloud-core"}, {"name": "google\/cloud-core"}, {"name": "rize\/uri-template"}, {"name": "rize\/uri-template"}, {"name": "google\/auth"}, {"name": "google\/auth"}, {"name": "firebase\/php-jwt"}, {"name": "firebase\/php-jwt"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/cache"}, {"name": "psr\/cache"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "monolog\/monolog"}, {"name": "monolog\/monolog"}, {"name": "psr\/log"}, {"name": "psr\/log"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "google\/gax"}, {"name": "google\/gax"}, {"name": "google\/auth"}, {"name": "google\/auth"}, {"name": "firebase\/php-jwt"}, {"name": "firebase\/php-jwt"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/cache"}, {"name": "psr\/cache"}, {"name": "google\/grpc-gcp"}, {"name": "google\/grpc-gcp"}, {"name": "google\/protobuf"}, {"name": "google\/protobuf"}, {"name": "grpc\/grpc"}, {"name": "grpc\/grpc"}, {"name": "google\/auth"}, {"name": "google\/auth"}, {"name": "firebase\/php-jwt"}, {"name": "firebase\/php-jwt"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/guzzle"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-client"}, {"name": "psr\/http-client"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "symfony\/deprecation-contracts"}, {"name": "symfony\/deprecation-contracts"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/cache"}, {"name": "psr\/cache"}, {"name": "psr\/cache"}, {"name": "psr\/cache"}, {"name": "grpc\/grpc"}, {"name": "grpc\/grpc"}, {"name": "google\/protobuf"}, {"name": "google\/protobuf"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/promises"}, {"name": "guzzlehttp\/psr7"}, {"name": "guzzlehttp\/psr7"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-factory"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "psr\/http-message"}, {"name": "ralouphie\/getallheaders"}, {"name": "ralouphie\/getallheaders"}, {"name": "google\/common-protos"}, {"name": "google\/common-protos"}, {"name": "google\/protobuf"}, {"name": "google\/protobuf"}, {"name": "microsoft\/bingads"}, {"name": "microsoft\/bingads"}, {"name": "jaybizzle\/crawler-detect"}, {"name": "jaybizzle\/crawler-detect"}]
     }
-    var option= {
-         title: {
+    var option = {
+        title: {
             text: 'shiguangxiaotou3/rely'
         },
-      tooltip: {},
-      legend: [
-        {
-        type: 'scroll',
-        orient: 'vertical',
-        right: 10,
-        top: 20,
-        bottom: 20,
-          data: graph.categories.map(function (a) {
-            return a.name;
-          })
-        }
-      ],
-      series: [
-        {
-          name: 'shiguangxiaotou3/rely',
-          type: 'graph',
-          layout: 'force',
-          data: graph.nodes,
-          links: graph.links,
-          categories: graph.categories,
-          roam: true,
-          label: {
-            show: true,
-            position: 'right',
-            formatter: '{b}'
-          },
-          labelLayout: {
-            hideOverlap: true
-          },
-          scaleLimit: {
-            min: 2,
-            max: 10
-          },
-          lineStyle: {
-            color: 'source',
-            curveness: 0.3
-          }
-        }
-      ]
+        tooltip: {},
+        legend: [
+            {
+                type: 'scroll',
+                orient: 'vertical',
+                right: 10,
+                top: 20,
+                bottom: 20,
+                data: graph.categories.map(function (a) {
+                    return a.name;
+                })
+            }
+        ],
+        series: [
+            {
+                name: 'shiguangxiaotou3/rely',
+                type: 'graph',
+                layout: 'force',
+                data: graph.nodes,
+                links: graph.links,
+                categories: graph.categories,
+                roam: true,
+                label: {
+                    show: true,
+                    position: 'right',
+                    formatter: '{b}'
+                },
+                labelLayout: {
+                    hideOverlap: true
+                },
+                scaleLimit: {
+                    min: 2,
+                    max: 10
+                },
+                lineStyle: {
+                    color: 'source',
+                    curveness: 0.3
+                }
+            }
+        ]
     };
     myChart.showLoading();
     myChart.hideLoading();
     myChart.setOption(option);
     if (option && typeof option === 'object') {
-      myChart.setOption(option);
+        myChart.setOption(option);
     }
     window.addEventListener('resize', myChart.resize);
 </script>
